@@ -1,0 +1,90 @@
+Go Landscape
+Framingham Go Meetup
+1 Nov 2016
+Tags: golang, meetup, go
+
+Todd Rafferty
+Senior Software Architect, Wrecking Ball Studio + Labs
+webRat@gmail.com
+raff@getwrecked.com
+http://web-rat.com/
+http://getwrecked.com/
+@webRat
+@FraminghamGo
+
+* Welcome to Go!
+
+Where to begin? The House of Gopher
+
+- Tour: https://golang.org/
+- Installers: https://golang.org/dl/
+- Documentation: https://golang.org/doc/
+- Blog: https://blog.golang.org/
+- Mailing List: https://groups.google.com/forum/#!forum/golang-nuts
+- Twitter: https://twitter.com/golang
+- Github Repo: https://github.com/golang
+- IRC: irc.freenode.net #go-nuts
+
+* Before stepping outside the House of Gopher
+
+* Learn to Communicate
+
+- Spoken Word: Go, not Golang.
+- Resume, Blogging, Papers: You should using Go when referencing the language.
+- If you're a blogger, tagging your Go related posts with golang is a good idea.
+- Metadata: use golang
+- Search by typing: <problem you're trying to solve> golang
+- Why? Go is too "generic"
+
+
+* Explore the digital landscape outside
+
+* Noteable Organizations:
+
+- GolangBridge - https://golangbridge.org/
+- Women Who Go - http://www.womenwhogo.org/
+
+* Conferences
+
+- Gophercon - July 2017
+- GothamGo - November 18, 2016 - New York City
+- Full List here - https://github.com/golang/go/wiki/Conferences
+
+* Audio
+
+- GoTime.FM - https://changelog.com/gotime
+- Go Gab - https://www.briefs.fm/go-gab
+- Golang Show (Russian) - http://golangshow.com/
+
+* Forums
+
+- GolangBridge Forums - https://forum.golangbridge.org/
+
+* Newsletters
+
+- Golang Weekly - http://golangweekly.com/
+- Import Golang - http://importgolang.com/newsletter/
+
+* Slack Communities
+
+- Gopher Slack - https://invite.slack.golangbridge.org/
+- Channel - #framingham-ma
+
+* In Person Training
+
+- Ardan Labs - Ultimate Go - https://www.ardanlabs.com/ultimate-go
+- Brian Ketelsen - https://www.brianketelsen.com/
+
+* Online Training
+
+- Essential Go - https://www.kajabinext.com/marketplace/courses/1-essential-go
+- UDemy's Learn How To Code: Google's Go (golang) Programming Language - https://www.udemy.com/learn-how-to-code/?couponCode=GOLEARN
+- CodeSchool - On Track With Golang - https://www.codeschool.com/courses/on-track-with-golang
+- Pluralsight - https://www.pluralsight.com
+- O'Reilly - http://shop.oreilly.com/category/learning-path/go-fundamentals.do
+
+* Special Mentions
+
+- Exercism - http://exercism.io
+- GoByExample - https://gobyexample.com
+- GoWalkthrough - https://medium.com/go-walkthrough
