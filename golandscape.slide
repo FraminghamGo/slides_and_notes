@@ -20,6 +20,7 @@ Where to begin? The House of Gopher
 - Installers: https://golang.org/dl/
 - Documentation: https://golang.org/doc/
 - Blog: https://blog.golang.org/
+- Playground: https://play.golang.org/
 - Mailing List: https://groups.google.com/forum/#!forum/golang-nuts
 - Twitter: https://twitter.com/golang
 - Github Repo: https://github.com/golang
@@ -29,13 +30,12 @@ Where to begin? The House of Gopher
 
 * Learn to Communicate
 
+- Why? "Go" is too "generic"
 - Spoken Word: Go, not Golang.
 - Resume, Blogging, Papers: You should using Go when referencing the language.
 - If you're a blogger, tagging your Go related posts with golang is a good idea.
 - Metadata: use golang
-- Search by typing: <problem you're trying to solve> golang
-- Why? Go is too "generic"
-
+- Search by typing: `<problem you're trying to solve> golang`
 
 * Explore the digital landscape outside
 
@@ -64,6 +64,7 @@ Where to begin? The House of Gopher
 
 - Golang Weekly - http://golangweekly.com/
 - Import Golang - http://importgolang.com/newsletter/
+- Go Pulse - https://blog.golangbridge.org/november-2016-go-pulse-412ea430747e#.mp0oxb1d3
 
 * Slack Communities
 
