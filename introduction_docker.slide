@@ -1,0 +1,75 @@
+Introduction to Docker
+16 Jan 2016
+Tags: golang, meetup, go
+
+Todd Rafferty
+Senior Software Architect, Wrecking Ball Studio + Labs
+webRat@gmail.com
+raff@getwrecked.com
+http://web-rat.com/
+http://getwrecked.com/
+@webRat
+@FraminghamGo
+
+* Introduction to Docker
+
+.image https://www.docker.com/sites/default/files/moby.svg
+
+* What Is Docker?
+
+Docker is an open source project that automates the deployment of applications inside software containers.
+
+Got that? o_O
+
+* Let's break this down
+
+Docker is an *open* *source* *project* that automates the deployment of applications inside software containers.
+
+- Docker is an organization, as well as software
+- Open Source - http://github.com/docker
+- Written in Go
+- Works on linux, macos, and windows
+
+* Let's skip ahead
+
+Docker is an open source project that automates the deployment of applications *inside* *software* *containers*.
+
+- According to wikipedia: Docker containers wrap up a piece of software in a complete filesystem that contains everything it needs to run: code, runtime, system tools, system libraries – anything you can install on a server. This guarantees that it will always run the same, regardless of the environment it is running in.
+
+* Let's go back to the middle
+
+Docker is an open source project that automates the *deployment* *of* *applications* inside software containers.
+
+What applications?
+
+- Go App
+- Database App?
+- Binary App?
+
+* And finally, automate
+
+Docker is an open source project that *automates* the deployment of applications inside software containers.
+
+- Dockerfile
+- hub.docker.com (_Pre-existing_ _recipes_)
+
+* How do we get started?
+
+- Download / install a binary from Docker.com
+- Once install, macos users will find a whale on their top menu
+- Windows users: systray(?)
+
+* A simple example
+
+  docker run ubuntu /bin/echo 'Hello world'
+
+Example dockerfiles
+
+- https://github.com/kstaken/dockerfile-examples
+- Apache Example
+  docker build -t my-apache2 .
+  docker run -itp 80:80 --name my-running-app my-apache2
+
+* Expand your docker world by using `docker-compose`
+
+Docker compose is where the magic is at in my opinion.

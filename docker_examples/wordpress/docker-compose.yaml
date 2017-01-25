@@ -1,0 +1,34 @@
+version: '2'
+services:
+  db:
+    image: mysql:5.6
+    container_name: db-custom-container
+    volumes:
+      - "./.data/db:/var/lib/mysql"
+    ports:
+      - "3306:3306"
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: wp-custom-name
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+
+  wordpress:
+    depends_on:
+      - db
+    image: wordpress:4.6.1-php7.0-apache
+    container_name: wp-custom-container
+    volumes:
+      - "./wordpress/:/var/www/html"
+    extra_hosts:
+      - "local.docker.wordpress:127.0.0.1"
+    ports:
+      - "8000:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_PASSWORD: root
+      WORDPRESS_DB_NAME: wp-custom-name
+      WORDPRESS_DB_USER: root
+      VIRTUAL_HOST: local.docker.wordpress, dev.docker.wordpress
